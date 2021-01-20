@@ -709,7 +709,7 @@ footer > .container {
 
 .work-overlay {
   position: absolute;
-  top: 0;
+  top: 100%;
   left: 0;
 
   width: 100%;
@@ -726,7 +726,7 @@ footer > .container {
 
 .work-item:hover .work-overlay,
 .work-item:focus .work-overlay {
-  transform: translateY(0);
+  transform: translateY(-100%);
 }
 
 .work-mode {
