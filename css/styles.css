@@ -833,3 +833,10 @@ footer > .container {
 .modal-button:focus {
   color: var(--add-color);
 }
+
+.icon-close {
+  width: 11px;
+  height: 11px;
+
+  fill: currentColor;
+}
